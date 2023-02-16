@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E90F9E20299D6496005B4944 /* MedListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F9E1F299D6496005B4944 /* MedListApp.swift */; };
+		E90F9E22299D6496005B4944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F9E21299D6496005B4944 /* ContentView.swift */; };
+		E90F9E24299D6497005B4944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90F9E23299D6497005B4944 /* Assets.xcassets */; };
+		E90F9E27299D6497005B4944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90F9E26299D6497005B4944 /* Preview Assets.xcassets */; };
+		E90F9E2E299D655B005B4944 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F9E2D299D655B005B4944 /* Medication.swift */; };
+		E90F9E30299D65E8005B4944 /* MedicationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F9E2F299D65E8005B4944 /* MedicationListViewModel.swift */; };
+		E90F9E32299D6673005B4944 /* MedicationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F9E31299D6673005B4944 /* MedicationCell.swift */; };
+		E90F9E34299D671F005B4944 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F9E33299D671F005B4944 /* MedicationDetailViewController.swift */; };
+		E90F9E36299D679B005B4944 /* AddMedicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F9E35299D679B005B4944 /* AddMedicationViewController.swift */; };
+		E90F9E38299D75A4005B4944 /* MedicationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F9E37299D75A4005B4944 /* MedicationStore.swift */; };
+		E90F9E3A299D7624005B4944 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90F9E39299D7624005B4944 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E90F9E1C299D6496005B4944 /* MedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E90F9E1F299D6496005B4944 /* MedListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedListApp.swift; sourceTree = "<group>"; };
+		E90F9E21299D6496005B4944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E90F9E23299D6497005B4944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E90F9E26299D6497005B4944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E90F9E2D299D655B005B4944 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		E90F9E2F299D65E8005B4944 /* MedicationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationListViewModel.swift; sourceTree = "<group>"; };
+		E90F9E31299D6673005B4944 /* MedicationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationCell.swift; sourceTree = "<group>"; };
+		E90F9E33299D671F005B4944 /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
+		E90F9E35299D679B005B4944 /* AddMedicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedicationViewController.swift; sourceTree = "<group>"; };
+		E90F9E37299D75A4005B4944 /* MedicationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationStore.swift; sourceTree = "<group>"; };
+		E90F9E39299D7624005B4944 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E90F9E19299D6496005B4944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E90F9E13299D6496005B4944 = {
+			isa = PBXGroup;
+			children = (
+				E90F9E1E299D6496005B4944 /* MedList */,
+				E90F9E1D299D6496005B4944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E90F9E1D299D6496005B4944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E90F9E1C299D6496005B4944 /* MedList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E90F9E1E299D6496005B4944 /* MedList */ = {
+			isa = PBXGroup;
+			children = (
+				E90F9E1F299D6496005B4944 /* MedListApp.swift */,
+				E90F9E21299D6496005B4944 /* ContentView.swift */,
+				E90F9E2D299D655B005B4944 /* Medication.swift */,
+				E90F9E2F299D65E8005B4944 /* MedicationListViewModel.swift */,
+				E90F9E31299D6673005B4944 /* MedicationCell.swift */,
+				E90F9E33299D671F005B4944 /* MedicationDetailViewController.swift */,
+				E90F9E35299D679B005B4944 /* AddMedicationViewController.swift */,
+				E90F9E37299D75A4005B4944 /* MedicationStore.swift */,
+				E90F9E39299D7624005B4944 /* Constants.swift */,
+				E90F9E23299D6497005B4944 /* Assets.xcassets */,
+				E90F9E25299D6497005B4944 /* Preview Content */,
+			);
+			path = MedList;
+			sourceTree = "<group>";
+		};
+		E90F9E25299D6497005B4944 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E90F9E26299D6497005B4944 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E90F9E1B299D6496005B4944 /* MedList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E90F9E2A299D6497005B4944 /* Build configuration list for PBXNativeTarget "MedList" */;
+			buildPhases = (
+				E90F9E18299D6496005B4944 /* Sources */,
+				E90F9E19299D6496005B4944 /* Frameworks */,
+				E90F9E1A299D6496005B4944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedList;
+			productName = MedList;
+			productReference = E90F9E1C299D6496005B4944 /* MedList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E90F9E14299D6496005B4944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E90F9E1B299D6496005B4944 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E90F9E17299D6496005B4944 /* Build configuration list for PBXProject "MedList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E90F9E13299D6496005B4944;
+			productRefGroup = E90F9E1D299D6496005B4944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E90F9E1B299D6496005B4944 /* MedList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E90F9E1A299D6496005B4944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90F9E27299D6497005B4944 /* Preview Assets.xcassets in Resources */,
+				E90F9E24299D6497005B4944 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E90F9E18299D6496005B4944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90F9E36299D679B005B4944 /* AddMedicationViewController.swift in Sources */,
+				E90F9E34299D671F005B4944 /* MedicationDetailViewController.swift in Sources */,
+				E90F9E38299D75A4005B4944 /* MedicationStore.swift in Sources */,
+				E90F9E22299D6496005B4944 /* ContentView.swift in Sources */,
+				E90F9E30299D65E8005B4944 /* MedicationListViewModel.swift in Sources */,
+				E90F9E2E299D655B005B4944 /* Medication.swift in Sources */,
+				E90F9E20299D6496005B4944 /* MedListApp.swift in Sources */,
+				E90F9E32299D6673005B4944 /* MedicationCell.swift in Sources */,
+				E90F9E3A299D7624005B4944 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E90F9E28299D6497005B4944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E90F9E29299D6497005B4944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E90F9E2B299D6497005B4944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedList/Preview Content\"";
+				DEVELOPMENT_TEAM = K5WV36G782;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ErnestM.MedList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E90F9E2C299D6497005B4944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MedList/Preview Content\"";
+				DEVELOPMENT_TEAM = K5WV36G782;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ErnestM.MedList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E90F9E17299D6496005B4944 /* Build configuration list for PBXProject "MedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90F9E28299D6497005B4944 /* Debug */,
+				E90F9E29299D6497005B4944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E90F9E2A299D6497005B4944 /* Build configuration list for PBXNativeTarget "MedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E90F9E2B299D6497005B4944 /* Debug */,
+				E90F9E2C299D6497005B4944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E90F9E14299D6496005B4944 /* Project object */;
+}
